@@ -391,5 +391,5 @@ npm start
 
 <p align="center">
   <img src="docs/screenshots/demo-04-image-description.png" width="220" alt="이미지 판단하기 화면" />
-  <img src="docs/screenshots/demo-05-result-summary.png" width="220" alt="검사 결과 요약 화면" />
+  <img src="imgs/image.png" width="220" alt="검사 결과 요약 화면" />
 </p>
