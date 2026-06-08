@@ -384,12 +384,12 @@ npm start
 ## 📱 시연 스크린샷
 
 <p align="center">
-  <img src="docs/screenshots/demo-01-user-info.png" width="220" alt="기억한 데이 사용자 정보 입력 화면" />
-  <img src="docs/screenshots/demo-02-practice.png" width="220" alt="연습 문제 화면" />
-  <img src="docs/screenshots/demo-03-read-sentence.png" width="220" alt="문장 따라 읽기 화면" />
+  <img src="imgs/image1.png" width="220" alt="기억한 데이 사용자 정보 입력 화면" />
+  <img src="imgs/image2.png" width="220" alt="연습 문제 화면" />
+  <img src="imgs/image3.png" width="220" alt="문장 따라 읽기 화면" />
 </p>
 
 <p align="center">
-  <img src="docs/screenshots/demo-04-image-description.png" width="220" alt="이미지 판단하기 화면" />
+  <img src="imgs/image4.png" width="220" alt="이미지 판단하기 화면" />
   <img src="imgs/image.png" width="220" alt="검사 결과 요약 화면" />
 </p>
