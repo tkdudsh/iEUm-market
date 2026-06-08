@@ -135,21 +135,21 @@ eum-market
 
 `client/src/Router.js`에서 전체 페이지 라우팅을 관리합니다.
 
-| 경로 | 화면 | 설명 |
-| --- | --- | --- |
-| `/` | HomePage | 메인 상품 목록 |
-| `/login` | Login | 로그인 |
-| `/signup` | SignUp | 회원가입 |
-| `/mypage` | MyPage | 장바구니 |
-| `/my-orders` | MyOrder | 주문 내역 |
-| `/product/:id` | ProductDetailPage | 상품 상세 |
-| `/category/:region` | CategoryPage | 지역별 상품 |
-| `/search` | SearchResultPage | 상품 검색 결과 |
-| `/region` | Regionpage | 지역별 판매량 통계 |
-| `/board` | BoardPage | 게시판 목록 |
-| `/board/write` | BoardWritePage | 게시글 작성 |
-| `/board/:id` | BoardDetailPage | 게시글 상세 |
-| `/about` | AboutPage | 서비스 소개 |
+| 경로                | 화면              | 설명               |
+| ------------------- | ----------------- | ------------------ |
+| `/`                 | HomePage          | 메인 상품 목록     |
+| `/login`            | Login             | 로그인             |
+| `/signup`           | SignUp            | 회원가입           |
+| `/mypage`           | MyPage            | 장바구니           |
+| `/my-orders`        | MyOrder           | 주문 내역          |
+| `/product/:id`      | ProductDetailPage | 상품 상세          |
+| `/category/:region` | CategoryPage      | 지역별 상품        |
+| `/search`           | SearchResultPage  | 상품 검색 결과     |
+| `/region`           | Regionpage        | 지역별 판매량 통계 |
+| `/board`            | BoardPage         | 게시판 목록        |
+| `/board/write`      | BoardWritePage    | 게시글 작성        |
+| `/board/:id`        | BoardDetailPage   | 게시글 상세        |
+| `/about`            | AboutPage         | 서비스 소개        |
 
 ### 🔄 상태 관리
 
@@ -225,44 +225,44 @@ Express 서버는 `backend/server.js`에서 시작되며, 기능별 라우터를
 
 ### 🔐 Auth
 
-| Method | Endpoint | 설명 |
-| --- | --- | --- |
-| POST | `/api/auth/signup` | 회원가입 |
-| POST | `/api/auth/login` | 로그인 및 JWT 발급 |
-| GET | `/api/auth/me` | 로그인 사용자 정보 조회 |
+| Method | Endpoint           | 설명                    |
+| ------ | ------------------ | ----------------------- |
+| POST   | `/api/auth/signup` | 회원가입                |
+| POST   | `/api/auth/login`  | 로그인 및 JWT 발급      |
+| GET    | `/api/auth/me`     | 로그인 사용자 정보 조회 |
 
 ### 🏷️ Products
 
-| Method | Endpoint | 설명 |
-| --- | --- | --- |
-| GET | `/api/products` | 전체 상품 목록 조회 |
+| Method | Endpoint        | 설명                |
+| ------ | --------------- | ------------------- |
+| GET    | `/api/products` | 전체 상품 목록 조회 |
 
 ### 🛍️ Cart
 
-| Method | Endpoint | 설명 |
-| --- | --- | --- |
-| GET | `/api/cart` | 사용자 장바구니 조회 |
-| POST | `/api/cart` | 장바구니 상품 추가 |
-| PUT | `/api/cart/:id/increase` | 상품 수량 증가 |
-| PUT | `/api/cart/:id/decrease` | 상품 수량 감소 |
-| PUT | `/api/cart/:id` | 상품 수량 직접 수정 |
-| DELETE | `/api/cart/:id` | 장바구니 상품 삭제 |
+| Method | Endpoint                 | 설명                 |
+| ------ | ------------------------ | -------------------- |
+| GET    | `/api/cart`              | 사용자 장바구니 조회 |
+| POST   | `/api/cart`              | 장바구니 상품 추가   |
+| PUT    | `/api/cart/:id/increase` | 상품 수량 증가       |
+| PUT    | `/api/cart/:id/decrease` | 상품 수량 감소       |
+| PUT    | `/api/cart/:id`          | 상품 수량 직접 수정  |
+| DELETE | `/api/cart/:id`          | 장바구니 상품 삭제   |
 
 ### 📦 Orders
 
-| Method | Endpoint | 설명 |
-| --- | --- | --- |
-| POST | `/api/orders` | 주문 생성 |
-| GET | `/api/orders` | 사용자 주문 내역 조회 |
+| Method | Endpoint      | 설명                  |
+| ------ | ------------- | --------------------- |
+| POST   | `/api/orders` | 주문 생성             |
+| GET    | `/api/orders` | 사용자 주문 내역 조회 |
 
 ### 📝 Board
 
-| Method | Endpoint | 설명 |
-| --- | --- | --- |
-| POST | `/api/board` | 게시글 작성 |
-| GET | `/api/board` | 게시글 목록 조회 |
-| GET | `/api/board/:id` | 게시글 상세 조회 |
-| DELETE | `/api/board/:id` | 게시글 삭제 |
+| Method | Endpoint         | 설명             |
+| ------ | ---------------- | ---------------- |
+| POST   | `/api/board`     | 게시글 작성      |
+| GET    | `/api/board`     | 게시글 목록 조회 |
+| GET    | `/api/board/:id` | 게시글 상세 조회 |
+| DELETE | `/api/board/:id` | 게시글 삭제      |
 
 ## 🗃️ 데이터 모델
 
@@ -380,3 +380,16 @@ npm start
 - 지역별 판매량 데이터 시각화 고도화
 - UI 텍스트 인코딩 및 접근성 개선
 - 배포 환경에 맞춘 API Base URL 분리
+
+## 📱 시연 스크린샷
+
+<p align="center">
+  <img src="docs/screenshots/demo-01-user-info.png" width="220" alt="기억한 데이 사용자 정보 입력 화면" />
+  <img src="docs/screenshots/demo-02-practice.png" width="220" alt="연습 문제 화면" />
+  <img src="docs/screenshots/demo-03-read-sentence.png" width="220" alt="문장 따라 읽기 화면" />
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/demo-04-image-description.png" width="220" alt="이미지 판단하기 화면" />
+  <img src="docs/screenshots/demo-05-result-summary.png" width="220" alt="검사 결과 요약 화면" />
+</p>
